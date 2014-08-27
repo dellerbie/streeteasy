@@ -25,9 +25,9 @@ class StreetEasyTest < Test::Unit::TestCase
   
   def test_most_expensive_sales
     se = StreetEasy.new
-    VCR.use_cassette('rentals') do
+    VCR.use_cassette('sales') do
       sales = se.most_expensive_sales
-      # response = Net::HTTP.get_response(URI("http://streeteasy.com/for-sale/soho?view=list"))
+      puts sales
     end
   end
   

@@ -1,6 +1,7 @@
 require 'nokogiri'
 require 'open-uri'
 require 'net/http'
+require 'streeteasy/listing'
 
 class StreetEasy
   DEFAULT_OUTPUT_FILE = "streeteasy_most_expensive_listings.json"
@@ -20,19 +21,26 @@ class StreetEasy
   end
   
   def most_expensive_sales
-    url = "http://streeteasy.com/for-sale/#{neighborhood}?view=list"
-    fetch_listings_from_url(url)
+    fetch_listings_of_type(:sale)
   end
   
   def most_expensive_rentals
-    url = "http://streeteasy.com/for-rent/#{neighborhood}?view=list"
-    fetch_listings_from_url(url)
+    fetch_listings_of_type(:rent)
   end
   
-  def fetch_listings_from_url(url)
-    doc = Nokogiri::HTML(open(url))
-    # p doc
+  def fetch_listings_of_type(listing_type)
+    listings = []
     
-    # response = Net::HTTP.get_response(URI(url))
+    url = "http://streeteasy.com/for-#{listing_type.to_s}/#{neighborhood}?view=list"
+    doc = Nokogiri::HTML(open(url))
+    doc.css('#results table.listings tr.listing').each do |listing_node|
+      address = listing_node.css('td h5 a').first.text
+      url = "http://streeteasy.com#{listing_node.css('td h5 a').first['href']}"
+      price = listing_node.css('td.price h5').first.text
+      
+      listings << Listing.new(address: address, type: listing_type, url: url, price: price)
+    end
+    
+    listings.take(max_results_per_listing_type)
   end
 end
