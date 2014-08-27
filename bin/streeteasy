@@ -1,5 +1,30 @@
 #!/usr/bin/env ruby
 
+require 'optparse'
 require 'streeteasy'
 
-StreetEasy.hi
+options = {neighborhood: 'soho', limit: 20, output: "streeteasy_most_expensive_listings.json"}
+
+OptionParser.new do |opts|
+  opts.banner = "Usage: streeteasy [options]"
+  
+  opts.on("-n", "--neighborhood neighborhood", "NYC neighborhood to fetch data for") do |neighborhood|
+    options[:neighborhood] = neighborhood.downcase
+  end
+  
+  opts.on("-l", "--limit limit", Integer, "Maximum number of sales and rentals to return") do |limit|
+    options[:limit] = limit.to_i
+  end
+  
+  opts.on("-o", "--output filename", "File to export results into. Defaults to #{options[:output]}") do |output|
+    options[:output] = output
+  end
+end.parse!
+
+p options
+p ARGV
+
+# se = StreetEasy.new(options)
+# listings = se.most_expensive_listings(options)
+# se.export_listings_to_file(listings, file)
+
