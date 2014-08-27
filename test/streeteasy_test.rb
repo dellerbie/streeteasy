@@ -27,7 +27,6 @@ class StreetEasyTest < Test::Unit::TestCase
     se = StreetEasy.new
     VCR.use_cassette('sales') do
       sales = se.most_expensive_sales
-      puts sales
     end
   end
   
