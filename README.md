@@ -3,8 +3,10 @@ streeteasy
 
 Installation
 ==========
+```ruby
 gem build streeteasy.gemspec
 gem install --dev ./streeteasy-0.0.1.gem
+```
 
 Run Tests
 ==========
