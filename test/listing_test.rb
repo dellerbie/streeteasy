@@ -57,4 +57,11 @@ class ListingTest < Test::Unit::TestCase
     listing.price = ' $6,495,000  '
     assert_equal 6495000, listing.price
   end
+  
+  def test_to_json  
+    attributes = {address: '7 Wooster Street #PH', type: 'rental', price: '$7,375,000', url: "http://streeteasy.com/sale/1098553-condo-7-wooster-street-soho-new-york"}
+    listing = Listing.new(attributes)
+    expected_json = {listing_class: listing.type, address: listing.address, unit: listing.unit, url: listing.url, price: listing.price}
+    assert_equal expected_json.to_json, listing.to_json
+  end
 end

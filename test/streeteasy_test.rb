@@ -27,6 +27,35 @@ class StreetEasyTest < Test::Unit::TestCase
     se = StreetEasy.new
     VCR.use_cassette('sales') do
       sales = se.most_expensive_sales
+      assert_not_nil sales
+      assert_equal se.max_results_per_listing_type, sales.length
+    end
+  end
+  
+  def test_most_expensive_rentals
+    se = StreetEasy.new
+    VCR.use_cassette('rentals') do
+      rentals = se.most_expensive_rentals
+      assert_not_nil rentals
+      assert_equal se.max_results_per_listing_type, rentals.length
+    end
+  end
+  
+  def test_export_listings_to_file
+    filename = "test/fixtures/#{StreetEasy::DEFAULT_OUTPUT_FILE}"
+    se = StreetEasy.new(output: filename)
+    puts "output file => #{se.output_file}"
+    assert !File.exists?(filename), "Output file should not exist"
+    
+    begin
+      VCR.use_cassette('sales') do
+        sales = se.most_expensive_sales
+        se.export_listings_to_file(sales)
+        assert File.exists?(filename), "Output file should exist"
+        assert !File.zero?(filename), "Output file should not be size zero"
+      end
+    ensure
+      File.delete(filename) if File.exists?(filename)
     end
   end
   

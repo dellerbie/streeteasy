@@ -1,3 +1,5 @@
+require 'json'
+
 class Listing
   attr_writer :address, :type, :price
   attr_accessor :url
@@ -44,5 +46,15 @@ class Listing
   
   def to_s
     ["address: #{address}", "unit: #{unit}", "type: #{type}", "price: #{price}", "url: #{url}"].join("\n")
+  end
+  
+  def to_json(*a)
+    {
+      listing_class: type, 
+      address: address, 
+      unit: unit, 
+      url: url, 
+      price: price
+    }.to_json(*a)
   end
 end

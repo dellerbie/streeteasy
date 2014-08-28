@@ -2,6 +2,7 @@ require 'nokogiri'
 require 'open-uri'
 require 'net/http'
 require 'streeteasy/listing'
+require 'json'
 
 class StreetEasy
   DEFAULT_OUTPUT_FILE = "streeteasy_most_expensive_listings.json"
@@ -42,5 +43,11 @@ class StreetEasy
     end
     
     listings.take(max_results_per_listing_type)
+  end
+  
+  def export_listings_to_file(listings)
+    File.open(output_file, "w") do |f|
+      f.puts JSON.pretty_generate(listings)
+    end
   end
 end

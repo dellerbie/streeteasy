@@ -2,7 +2,7 @@
 http_interactions:
 - request:
     method: get
-    uri: http://streeteasy.com/for-sale/soho?view=list
+    uri: http://streeteasy.com/for-rent/soho?view=list
     body:
       encoding: US-ASCII
       string: ''
@@ -21,7 +21,7 @@ http_interactions:
       Server:
       - nginx/1.6.1
       Date:
-      - Wed, 27 Aug 2014 21:47:32 GMT
+      - Wed, 27 Aug 2014 23:35:15 GMT
       Content-Type:
       - text/html; charset=utf-8
       Transfer-Encoding:
@@ -33,26 +33,26 @@ http_interactions:
       Cache-Control:
       - private, max-age=0, must-revalidate
       Set-Cookie:
-      - _ses=BAh7DDoPc2Vzc2lvbl9pZCIlYTg5OWRmMGZiMTZjNzgwY2NlMzYyMTE4YjRhMTVjNmE6EG5ld192aXNpdG9yVDoOdXNlcl9kYXRhexA6EHNhbGVzX29yZGVySSIPcHJpY2VfZGVzYwY6BkVUOhJyZW50YWxzX29yZGVySSIPcHJpY2VfZGVzYwY7CVQ6EGluX2NvbnRyYWN0RjoNaGlkZV9tYXBGOhJzaG93X2xpc3RpbmdzRjoSbW9ydGdhZ2VfdGVybWkjOhltb3J0Z2FnZV9kb3ducGF5bWVudGkZOiFtb3J0Z2FnZV9kb3ducGF5bWVudF9kb2xsYXJzaQJQwzoSbW9ydGdhZ2VfcmF0ZWYJNC43NToTbGlzdGluZ3Nfb3JkZXJJIg9wcmljZV9kZXNjBjsJRjoQc2VhcmNoX3ZpZXdJIglsaXN0BjsJVDoSbG9va19hbmRfZmVlbEkiCTIwMTQGOwlUOhBhZHNfYmFja2VuZEkiCXpkZnAGOwlUOhFsYXN0X3NlY3Rpb25JIgpzYWxlcwY7CVQ6EF9jc3JmX3Rva2VuSSIxM1cwT3dTUUJ0RHFPMk4xdHpicENZWWRiZm1uSEVxTGJWUmJtUUZqNGdTdz0GOwlG--20e6978b7a527c2a1871f9d642efa1534e21121b;
-        path=/; expires=Wed, 27 Aug 2014 22:47:32 -0000; HttpOnly
-      - streeteasy_site=nyc; path=/; expires=Thu, 27 Aug 2015 21:47:32 -0000
+      - _ses=BAh7DDoPc2Vzc2lvbl9pZCIlMTUyNTU2ODVkOTQ1N2M1NDg0NmU5YmVlNzdiYTk2YjM6EG5ld192aXNpdG9yVDoOdXNlcl9kYXRhexA6EHNhbGVzX29yZGVySSIPcHJpY2VfZGVzYwY6BkVUOhJyZW50YWxzX29yZGVySSIPcHJpY2VfZGVzYwY7CVQ6EGluX2NvbnRyYWN0RjoNaGlkZV9tYXBGOhJzaG93X2xpc3RpbmdzRjoSbW9ydGdhZ2VfdGVybWkjOhltb3J0Z2FnZV9kb3ducGF5bWVudGkZOiFtb3J0Z2FnZV9kb3ducGF5bWVudF9kb2xsYXJzaQJQwzoSbW9ydGdhZ2VfcmF0ZWYJNC43NToTbGlzdGluZ3Nfb3JkZXJJIg9wcmljZV9kZXNjBjsJRjoQc2VhcmNoX3ZpZXdJIglsaXN0BjsJVDoSbG9va19hbmRfZmVlbEkiCTIwMTQGOwlUOhBhZHNfYmFja2VuZEkiCXpkZnAGOwlUOhFsYXN0X3NlY3Rpb25JIgxyZW50YWxzBjsJVDoQX2NzcmZfdG9rZW5JIjFCRVFWOUpKSUpUeFBJOFFVK3lGWFpWWmcyMnpleXZaTmxSeHl4WEN5RDVBPQY7CUY%3D--876ed7553653e62cbd51504f81cff4b90405d580;
+        path=/; expires=Thu, 28 Aug 2014 00:35:15 -0000; HttpOnly
+      - streeteasy_site=nyc; path=/; expires=Thu, 27 Aug 2015 23:35:15 -0000
       X-Runtime:
-      - '275'
+      - '248'
     body:
       encoding: UTF-8
       string: "<!DOCTYPE html>\n<html xmlns=\"http://www.w3.org/1999/xhtml\" xmlns:v=\"urn:schemas-microsoft-com:vml\"
         xmlns:og=\"http://ogp.me/ns#\" xmlns:fb=\"http://www.facebook.com/2008/fbml\"
         xmlns:se=\"http://streeteasy.com/home/colophon\">\n  <head>\n    <script src=\"//ajax.googleapis.com/ajax/libs/jquery/1.9.0/jquery.min.js\"
         type=\"text/javascript\"></script>\n    <script src=\"//cdn.optimizely.com/js/1735380911.js\"></script>\n\n
-        \   \n          <title>Condos for Sale in Soho NYC - StreetEasy</title>\n
+        \   \n          <title>Apartments for Rent in Soho NYC - StreetEasy</title>\n
         \   \n    <meta http-equiv=\"Content-Type\" content=\"text/html;charset=utf-8\"
         />\n    <meta http-equiv=\"Content-Script-Type\" content=\"text/javascript\"
         />\n\n    \n      <meta name=\"viewport\" content=\"width=device-width, initial-scale=1,
         maximum-scale=1, user-scalable=no\" />\n    \n\n    <!-- Disable compatibility
         mode in IE -->\n    <meta http-equiv=\"X-UA-Compatible\" content=\"IE=9; IE=8;
         IE=7; IE=EDGE\" />\n\n    \n      <meta name=\"description\" content=\"Browse
-        photos of 158 for sale listings in Soho by using detailed search filters to
-        find your future home on StreetEasy.\" />\n    \n    <meta name=\"Rating\"
+        photos of 175 apartments for rent in Soho by using detailed search filters
+        to find your future home on StreetEasy.\" />\n    \n    <meta name=\"Rating\"
         content=\"General\" />\n    <meta name=\"se-ios-app\" content=\"app-id=660363289\">\n
         \   <meta name=\"google-site-verification\" content=\"4M-_YLR_tQk27ykgHWr9decsIArFxIZmnMnny__Uczw\"
         />\n    <link rel=\"Home\" href=\"http://streeteasy.com/nyc/sales\" />\n    <link
@@ -76,27 +76,27 @@ http_interactions:
         type=\"text/javascript\"></script>\n\n    \n\n    <script src=\"/assets/app-0ee34fea7e8f32f377d38b8c29ecc234.js\"
         type=\"text/javascript\"></script>\n\n    <link rel=\"image_src\" href=\"/images/streeteasy-logo.png\"
         />\n\n    <link rel='alternate' type='application/rss+xml' title='RSS 2.0'
-        href=\"/nyc/sales/rss/area:107\" />\n<link rel='canonical' href='http://streeteasy.com/for-sale/soho'/>\n<link
-        rel='next' href='http://streeteasy.com/for-sale/soho?page=2'/>\n\n    \n\n
+        href=\"/nyc/rentals/rss/area:107\" />\n<link rel='canonical' href='http://streeteasy.com/for-rent/soho'/>\n<link
+        rel='next' href='http://streeteasy.com/for-rent/soho?page=2'/>\n\n    \n\n
         \           <script type='text/javascript' src='http://www.googletagservices.com/tag/js/gpt.js'></script>\n
-        \       <script type='text/javascript'>\n          googletag.defineSlot('/6619/zillow.streeteasy.forsale/search',
-        [300, 250], 'ad_medium_rectangle').addService(googletag.pubads());\ngoogletag.defineSlot('/6619/zillow.streeteasy.forsale/search',
-        [728, 90], 'ad_leaderboard').addService(googletag.pubads());\ngoogletag.defineSlot('/6619/zillow.streeteasy.forsale/search',
-        [336, 40], 'ad_above_map').addService(googletag.pubads());\ngoogletag.defineSlot('/6619/zillow.streeteasy.forsale/search',
+        \       <script type='text/javascript'>\n          googletag.defineSlot('/6619/zillow.streeteasy.rental/search',
+        [300, 250], 'ad_medium_rectangle').addService(googletag.pubads());\ngoogletag.defineSlot('/6619/zillow.streeteasy.rental/search',
+        [728, 90], 'ad_leaderboard').addService(googletag.pubads());\ngoogletag.defineSlot('/6619/zillow.streeteasy.rental/search',
+        [336, 40], 'ad_above_map').addService(googletag.pubads());\ngoogletag.defineSlot('/6619/zillow.streeteasy.rental/search',
         [900, 60], 'ad_pencil').addService(googletag.pubads());\n\n          googletag.pubads().setTargeting('hood',
         \"soho\");\ngoogletag.pubads().setTargeting('area', \"downtown\");\ngoogletag.pubads().setTargeting('boro',
-        \"manhattan\");\ngoogletag.pubads().setTargeting('sale_price', ['no-price'])\ngoogletag.pubads().setTargeting('rental_price',
-        [])\ngoogletag.pubads().setTargeting('dma', \"new+york\");\ngoogletag.pubads().setTargeting('zcity',
+        \"manhattan\");\ngoogletag.pubads().setTargeting('sale_price', [])\ngoogletag.pubads().setTargeting('rental_price',
+        ['no-price'])\ngoogletag.pubads().setTargeting('dma', \"new+york\");\ngoogletag.pubads().setTargeting('zcity',
         \"New+York\");\ngoogletag.pubads().setTargeting('zstate', \"NY\");\ngoogletag.pubads().setTargeting('amenities',
         [])\ngoogletag.pubads().setTargeting('pos', 'top');googletag.pubads().setTargeting('pos',
         'bottom');\n          googletag.pubads().enableSyncRendering();\n          googletag.pubads().enableSingleRequest();\n
         \         googletag.enableServices();\n        </script>\n\n\n          <!--
-        START Google TagManager -->\n<script>\n  dataLayer = [{\"site\":\"nyc\",\"userType\":\"anonymous\",\"pageCat\":\"sales\",\"pageType\":\"search\",\"searchCat\":\"sales\",\"searchBoro\":\"manhattan\",\"searchNabe\":\"soho\",\"searchMinPrice\":\"any\",\"searchMaxPrice\":\"any\",\"searchView\":\"list\"}];\n</script>\n<!--
+        START Google TagManager -->\n<script>\n  dataLayer = [{\"site\":\"nyc\",\"userType\":\"anonymous\",\"pageCat\":\"rentals\",\"pageType\":\"search\",\"searchCat\":\"rentals\",\"searchBoro\":\"manhattan\",\"searchNabe\":\"soho\",\"searchMinPrice\":\"any\",\"searchMaxPrice\":\"any\",\"searchView\":\"list\"}];\n</script>\n<!--
         END Google TagManager -->\n\n <!-- Begin BlueKai Tag -->\n<iframe name=\"__bkframe\"
         height=\"0\" width=\"0\" frameborder=\"0\" src=\"javascript:void(0)\" style=\"display:
         none\"></iframe>\n<script type=\"text/javascript\" src=\"//tags.bkrtx.com/js/bk-coretag.js\"></script>\n<script
         type=\"text/javascript\">\n\n          bk_addPageCtx(\"pageType\", \"search\");\n
-        \         bk_addPageCtx(\"pageCat\", \"sales\");\n          bk_addPageCtx(\"searchMinPrice\",
+        \         bk_addPageCtx(\"pageCat\", \"rentals\");\n          bk_addPageCtx(\"searchMinPrice\",
         \"any\");\n          bk_addPageCtx(\"searchMaxPrice\", \"any\");\n          bk_addPageCtx(\"site\",
         \"nyc\");\n          bk_addPageCtx(\"searchBoro\", \"manhattan\");\n          bk_addPageCtx(\"zag\",
         false);\n          bk_addPageCtx(\"registered\", false);\n\n\nbk_doJSTag(17992,
@@ -104,7 +104,7 @@ http_interactions:
         \             SE.user = false;\n          </script>\n  <script type=\"text/javascript\">var
         NREUMQ=NREUMQ||[];NREUMQ.push([\"mark\",\"firstbyte\",new Date().getTime()]);</script></head>\n\n
         \ <body id='application' class='unknown_platform unknown_engine unknown_family
-        desktop  site_nyc listings sale list_view '>\n      <!-- Google Tag Manager
+        desktop  site_nyc listings rental list_view '>\n      <!-- Google Tag Manager
         -->\n    <noscript><iframe src=\"//www.googletagmanager.com/ns.html?id=GTM-MKTT9R\"\n
         \   height=\"0\" width=\"0\" style=\"display:none;visibility:hidden\"></iframe></noscript>\n
         \   <script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':\n    new
@@ -136,8 +136,8 @@ http_interactions:
         opacity: 1;height: auto;'><script type='text/javascript'>googletag.display('ad_pencil');</script></div></div>\n
         \               </div></div>\n                                    </div>\n\n
         \         <header>\n            <div id='header_print_info' class='only_in_print'>\n
-        \             Printed from StreetEasy.com at 05:47 PM, Aug 27 2014\n              <br
-        />\n              http://streeteasy.com/for-sale/soho?view=list\n            </div>\n\n
+        \             Printed from StreetEasy.com at 07:35 PM, Aug 27 2014\n              <br
+        />\n              http://streeteasy.com/for-rent/soho?view=list\n            </div>\n\n
         \           <div class=\"visible-md-block\">\n            <nav id='navbar_user'>\n
         \ <dl class='userbar_menu'>\n  <dt class='left' id='nav_site_menu'>New York
         City <i class='icon-caret-down down_arrow'></i> <i class='icon-caret-up up_arrow'></i></dt>\n
@@ -198,8 +198,8 @@ http_interactions:
         \   <p id=\"open_sort\" style=\"display:inline; margin-right:35px;\">\n      <a
         style=\"color:white;\" href=\"javascript:void(0);\" data-toggle=\"modal\"
         data-target=\"#sortModal\">SORT</a>\n    </p>\n    <p style=\"display:inline;\">\n
-        \     \n<span id='add_folder_entry_Search_273_span' style=\"margin-right:8px;\">\n
-        \ \n    \n      <a href=\"#\" data-modal-class=\"modal-signin\" data-modal-source=\"http://streeteasy.com/nyc/user/register_dialog?item=Search&amp;origin=save&amp;return_to=%2Ffolders%2F-%2Fadd_entry_dialog_2013%3Fentry%255Bitem_criteria%255D%3Darea%253A107%26amp%3Bentry%255Bitem_listing_class%255D%3DSale%26amp%3Bentry%255Bitem_type%255D%3DSearch%26amp%3Blnf_mode%3D2013%26amp%3Bquick_save%3Dtrue%26amp%3Bsaved_in_folders_info%3Dtrue\"
+        \     \n<span id='add_folder_entry_Search_1285550_span' style=\"margin-right:8px;\">\n
+        \ \n    \n      <a href=\"#\" data-modal-class=\"modal-signin\" data-modal-source=\"http://streeteasy.com/nyc/user/register_dialog?item=Search&amp;origin=save&amp;return_to=%2Ffolders%2F-%2Fadd_entry_dialog_2013%3Fentry%255Bitem_criteria%255D%3Darea%253A107%26amp%3Bentry%255Bitem_listing_class%255D%3DRental%26amp%3Bentry%255Bitem_type%255D%3DSearch%26amp%3Blnf_mode%3D2013%26amp%3Bquick_save%3Dtrue%26amp%3Bsaved_in_folders_info%3Dtrue\"
         data-toggle=\"modal\" rel=\"nofollow\" style=\"color:white;\">SAVE SEARCH</a>\n
         \   \n    \n  \n</span>\n\n\n    </p>\n  </div>\n\n                  </ul>\n
         \               </div>\n              </nav>\n            </div>\n\n            \n
@@ -242,17 +242,18 @@ http_interactions:
         for=\"sqft_asc\">Smallest</label>\n                  \n                </a>\n
         \             </li>\n            \n          </ul>\n        </div>\n      </div>\n
         \   </div>\n  </div>\n\n</div>\n\n<div class=\"small_screen_criteria hidden-md
-        hidden-sm\">\n\t<p class=\"result_count\">158</p>\n\t<p class=\"title_and_subtitle\">Real
-        estate\nin Soho  </p>\n</div>\n\n<section class='criteria hidden-xs' id=\"results-view\"
-        style=\"border-bottom:none; margin-bottom:-16px;\">\n  <div class='criteria_count'
-        style=\"font-size:30px; margin-right:8px;\">\n    158\n  </div>\n\n  <div
-        class='criteria_title' style=\"display:inline; width: 85%;\">\n\n          <h1
-        style=\"font-size:30px; line-height:40px; text-transform:none; float: left;
-        padding-bottom: 0px;\">Real estate\nin Soho</h1>\n      <h2 style=\"line-height:
-        46px; overflow:hidden; white-space: nowrap; text-overflow:ellipsis; text-transform:
-        capitalize; font-size: 20px;\"></h2>\n      </div>\n  <div class='closer'></div>\n</section>\n\n<div
-        id=\"searchModal\" class=\"modal modal-search fade\">\n  <div class=\"modal-dialog\">\n
-        \   <div class=\"modal-content\">\n      <div class=\"modal-header modal-header-navbar\">\n
+        hidden-sm\">\n\t<p class=\"result_count\">175</p>\n\t<p class=\"title_and_subtitle\">
+        Apartments for Rent\nIn Soho  </p>\n</div>\n\n<section class='criteria hidden-xs'
+        id=\"results-view\" style=\"border-bottom:none; margin-bottom:-16px;\">\n
+        \ <div class='criteria_count' style=\"font-size:30px; margin-right:8px;\">\n
+        \   175\n  </div>\n\n  <div class='criteria_title' style=\"display:inline;
+        width: 85%;\">\n\n          <h1 style=\"font-size:30px; line-height:40px;
+        text-transform:none; float: left; padding-bottom: 0px;\"> Apartments for Rent\nIn
+        Soho</h1>\n      <h2 style=\"line-height: 46px; overflow:hidden; white-space:
+        nowrap; text-overflow:ellipsis; text-transform: capitalize; font-size: 20px;\"></h2>\n
+        \     </div>\n  <div class='closer'></div>\n</section>\n\n<div id=\"searchModal\"
+        class=\"modal modal-search fade\">\n  <div class=\"modal-dialog\">\n    <div
+        class=\"modal-content\">\n      <div class=\"modal-header modal-header-navbar\">\n
         \       <nav class=\"navbar navbar-default\" role=\"navigation\">\n          <div
         class=\"container-fluid\">\n            <ul class=\"nav navbar-nav navbar-left\">\n
         \             <li><a href=\"#\" data-dismiss=\"modal\" aria-hidden=\"true\">Close</a></li>\n
@@ -260,11 +261,11 @@ http_interactions:
         \           <ul class=\"nav navbar-nav navbar-right\">\n              <li><a
         href=\"#\" se:behavior=\"link_form_submitter\" se:link_form_submitter:form_id=\"#searchModal
         #form\">Apply</a></li>\n            </ul>\n          </div>\n        </nav>\n
-        \     </div>\n      <div class=\"modal-body\">\n        \n<form action=\"/nyc/process/sales/edit_search_2013\"
-        class=\"user_input large criteria\" id=\"form\" method=\"post\" name=\"1409176052\"
+        \     </div>\n      <div class=\"modal-body\">\n        \n<form action=\"/nyc/process/rentals/edit_search_2013\"
+        class=\"user_input large criteria\" id=\"form\" method=\"post\" name=\"1409182515\"
         se:behavior=\"form_validatable_on_coordinate\" se:coordinator=\"criteria_expander\"><div
         style=\"margin:0;padding:0;display:inline\"><input name=\"authenticity_token\"
-        type=\"hidden\" value=\"3W0OwSQBtDqO2N1tzbpCYYdbfmnHEqLbVRbmQFj4gSw=\" /></div>
+        type=\"hidden\" value=\"BEQV9JJIJTxPI8QU+yFXZVZg22zeyvZNlRxyxXCyD5A=\" /></div>
         \ <div>\n    <div class='row'>\n<div id=\"location_combo_area\" class='criteria-field
         location'>\n  <label>Location</label>\n  <div class=\"area-selector\">\n    <div
         class=\"area-input\">\n      <ul class=\"area-sel-items\">\n        <li id=\"area-text\"><input
@@ -1316,36 +1317,24 @@ http_interactions:
         \       <a href=\"#\" data-modal-class=\"modal-location\" data-modal-live=\"true\"
         data-modal-source=\"/area/-/area_map_selector_dialog_2013?field=input%5Bname%3D%27area%5B%5D%27%5D\"
         data-toggle=\"modal\" rel=\"nofollow\" tabindex=\"-1\">or show all neighborhoods</a>\n
-        \     </div>\n    </div>\n  </div>\n</div>\n<div class=\"criteria-field type\">\n
-        \ <label>Type</label>\n  <select data-placeholder=\"e.g. Condo or Co-op\"
-        name=\"type[]\" size='1'  multiple='true' class=\"multiselect\">\n   <option
-        value='D1' >Condos</option>\n<option value='P1' >Co-ops</option>\n<option
-        value='X' >Houses</option>\n<option value='M' >Multi-families</option>\n<option
-        value='Y' >Timeshares</option>\n<option value='A' >Land</option>\n<option
-        value='?' >Other</option>\n<option value='Z' >Auctions</option>\n  </select>\n</div>\n<div
+        \     </div>\n    </div>\n  </div>\n</div>\n<div class=\"criteria-field no-fee\">\n
+        \ <input id=\"no_fee\" name=\"no_fee\" type=\"checkbox\" value=\"1\" />\n
+        \ <label for=\"no_fee\" class=\"secondary\">No Fee Only</label>\n</div>\n<div
         class='closer'></div></div><div class='row'>\n<div id='price' class='criteria-field
-        price sale'>\n  <label for=\"price_from\"> Price </label>\n  <div id=\"monthly_price\"
+        price rental'>\n  <label for=\"price_from\"> Price </label>\n  <div id=\"monthly_price\"
         style=''>\n    <div id=\"price_from_container\" class=\"\">\n      <select
         id=\"price_from\" name=\"price_from\" se:behavior=\"support_custom_value trigger_change_on_page_load\">\n
         \       <option value=\"\">Any</option>\n<option value=\"Custom\">&raquo;
-        Custom</option>\n<option value=\"100000\">$100,000</option>\n<option value=\"150000\">$150,000</option>\n<option
-        value=\"200000\">$200,000</option>\n<option value=\"250000\">$250,000</option>\n<option
-        value=\"300000\">$300,000</option>\n<option value=\"400000\">$400,000</option>\n<option
-        value=\"500000\">$500,000</option>\n<option value=\"600000\">$600,000</option>\n<option
-        value=\"700000\">$700,000</option>\n<option value=\"750000\">$750,000</option>\n<option
-        value=\"800000\">$800,000</option>\n<option value=\"900000\">$900,000</option>\n<option
-        value=\"1000000\">$1,000,000</option>\n<option value=\"1250000\">$1,250,000</option>\n<option
-        value=\"1500000\">$1,500,000</option>\n<option value=\"1750000\">$1,750,000</option>\n<option
-        value=\"2000000\">$2,000,000</option>\n<option value=\"2250000\">$2,250,000</option>\n<option
-        value=\"2500000\">$2,500,000</option>\n<option value=\"2750000\">$2,750,000</option>\n<option
-        value=\"3000000\">$3,000,000</option>\n<option value=\"3500000\">$3,500,000</option>\n<option
-        value=\"4000000\">$4,000,000</option>\n<option value=\"4500000\">$4,500,000</option>\n<option
-        value=\"5000000\">$5,000,000</option>\n<option value=\"6000000\">$6,000,000</option>\n<option
-        value=\"7000000\">$7,000,000</option>\n<option value=\"8000000\">$8,000,000</option>\n<option
-        value=\"9000000\">$9,000,000</option>\n<option value=\"10000000\">$10,000,000</option>\n<option
-        value=\"12000000\">$12,000,000</option>\n<option value=\"14000000\">$14,000,000</option>\n<option
-        value=\"16000000\">$16,000,000</option>\n<option value=\"20000000\">$20,000,000</option>\n<option
-        value=\"25000000\">$25,000,000</option>\n<option value=\"30000000\">$30,000,000</option>\n
+        Custom</option>\n<option value=\"500\">$500</option>\n<option value=\"750\">$750</option>\n<option
+        value=\"1000\">$1,000</option>\n<option value=\"1250\">$1,250</option>\n<option
+        value=\"1500\">$1,500</option>\n<option value=\"1750\">$1,750</option>\n<option
+        value=\"2000\">$2,000</option>\n<option value=\"2500\">$2,500</option>\n<option
+        value=\"3000\">$3,000</option>\n<option value=\"3500\">$3,500</option>\n<option
+        value=\"4000\">$4,000</option>\n<option value=\"4500\">$4,500</option>\n<option
+        value=\"5000\">$5,000</option>\n<option value=\"6000\">$6,000</option>\n<option
+        value=\"7000\">$7,000</option>\n<option value=\"8000\">$8,000</option>\n<option
+        value=\"9000\">$9,000</option>\n<option value=\"10000\">$10,000</option>\n<option
+        value=\"12500\">$12,500</option>\n<option value=\"15000\">$15,000</option>\n
         \     </select>\n      <div id=\"price_from_custom_container\" class=\"custom_container\"
         style=\"display: none;\">\n        <input type=\"text\" id=\"price_from\"
         name=\"price_from_ignore\" value=\"$0\" se:behavior=\"comma_separatable\"
@@ -1353,30 +1342,22 @@ http_interactions:
         \   <div id=\"price_to_container\" class=\"\">\n      <select id=\"price_to\"
         name='price_to' se:behavior=\"support_custom_value trigger_change_on_page_load\">\n
         \       <option value=\"\">Any</option>\n<option value=\"Custom\">&raquo;
-        Custom</option>\n<option value=\"100000\">$100,000</option>\n<option value=\"150000\">$150,000</option>\n<option
-        value=\"200000\">$200,000</option>\n<option value=\"250000\">$250,000</option>\n<option
-        value=\"300000\">$300,000</option>\n<option value=\"400000\">$400,000</option>\n<option
-        value=\"500000\">$500,000</option>\n<option value=\"600000\">$600,000</option>\n<option
-        value=\"700000\">$700,000</option>\n<option value=\"750000\">$750,000</option>\n<option
-        value=\"800000\">$800,000</option>\n<option value=\"900000\">$900,000</option>\n<option
-        value=\"1000000\">$1,000,000</option>\n<option value=\"1250000\">$1,250,000</option>\n<option
-        value=\"1500000\">$1,500,000</option>\n<option value=\"1750000\">$1,750,000</option>\n<option
-        value=\"2000000\">$2,000,000</option>\n<option value=\"2250000\">$2,250,000</option>\n<option
-        value=\"2500000\">$2,500,000</option>\n<option value=\"2750000\">$2,750,000</option>\n<option
-        value=\"3000000\">$3,000,000</option>\n<option value=\"3500000\">$3,500,000</option>\n<option
-        value=\"4000000\">$4,000,000</option>\n<option value=\"4500000\">$4,500,000</option>\n<option
-        value=\"5000000\">$5,000,000</option>\n<option value=\"6000000\">$6,000,000</option>\n<option
-        value=\"7000000\">$7,000,000</option>\n<option value=\"8000000\">$8,000,000</option>\n<option
-        value=\"9000000\">$9,000,000</option>\n<option value=\"10000000\">$10,000,000</option>\n<option
-        value=\"12000000\">$12,000,000</option>\n<option value=\"14000000\">$14,000,000</option>\n<option
-        value=\"16000000\">$16,000,000</option>\n<option value=\"20000000\">$20,000,000</option>\n<option
-        value=\"25000000\">$25,000,000</option>\n<option value=\"30000000\">$30,000,000</option>\n
+        Custom</option>\n<option value=\"500\">$500</option>\n<option value=\"750\">$750</option>\n<option
+        value=\"1000\">$1,000</option>\n<option value=\"1250\">$1,250</option>\n<option
+        value=\"1500\">$1,500</option>\n<option value=\"1750\">$1,750</option>\n<option
+        value=\"2000\">$2,000</option>\n<option value=\"2500\">$2,500</option>\n<option
+        value=\"3000\">$3,000</option>\n<option value=\"3500\">$3,500</option>\n<option
+        value=\"4000\">$4,000</option>\n<option value=\"4500\">$4,500</option>\n<option
+        value=\"5000\">$5,000</option>\n<option value=\"6000\">$6,000</option>\n<option
+        value=\"7000\">$7,000</option>\n<option value=\"8000\">$8,000</option>\n<option
+        value=\"9000\">$9,000</option>\n<option value=\"10000\">$10,000</option>\n<option
+        value=\"12500\">$12,500</option>\n<option value=\"15000\">$15,000</option>\n
         \     </select>\n      <div id=\"price_to_custom_container\" class=\"custom_container\"
         style=\"display: none\"> \n        <input type=\"text\" id=\"price_to\" name=\"price_to_ignore\"
         value=\"$0\" se:behavior=\"comma_separatable\" />\n      </div>\n    </div>\n
-        \   \n  </div>\n</div>\n\n<div id='beds' class='criteria-field beds'>\n  <label
-        for='beds'>Bedrooms</label>\n  <select name='beds' id='beds'>\n    <option
-        value=\"\">Any Beds</option>\n<option value=\"&lt;1\">Studio only</option>\n<option
+        \   \n      \n    \n  </div>\n</div>\n\n<div id='beds' class='criteria-field
+        beds'>\n  <label for='beds'>Bedrooms</label>\n  <select name='beds' id='beds'>\n
+        \   <option value=\"\">Any Beds</option>\n<option value=\"&lt;1\">Studio only</option>\n<option
         value=\"&lt;=1\">Studio / 1 br</option>\n<option value=\"1\">1 bedroom</option>\n<option
         value=\"2\">2 bedrooms</option>\n<option value=\"3\">3 bedrooms</option>\n<option
         value=\"4\">4 bedrooms</option>\n  </select>\n  <br />\n  <div class=\"shrink_wrapped\"
@@ -1395,36 +1376,36 @@ http_interactions:
         25px; width: 105.5%; margin-left:-15px\">\n      <div class=\"criteria-field
         options\">\n        <div class=\"criteria_field one_half\">\n          <div
         class=\"toggle_button_container\">\n            <div class=\"below_fold_toggle
-        below_fold_toggle_sale hidden\" se:behavior=\"togglable coordinated\" se:coordinator=\"criteria_expander\"
-        se:togglable:cssselector=\".below_fold_toggle_sale\">\n              <i class=\"icon-minus\"></i>
-        Basic Options\n            </div>\n            <div style=\"line-height:44px;\">\n
-        \             <div style=\"float:left; margin-right: 20px; margin-left: 15px;\">\n
-        \               <button type=\"submit\" name=\"do_search\" id=\"performSearch\"
-        class=\"button\">Search</button>\n              </div>\n              <div
-        class=\"below_fold_toggle below_fold_toggle_sale\" se:behavior=\"togglable
-        coordinated \" se:coordinator=\"criteria_expander\" se:togglable:cssselector=\".below_fold_toggle_sale\">\n
+        below_fold_toggle_rental hidden\" se:behavior=\"togglable coordinated\" se:coordinator=\"criteria_expander\"
+        se:togglable:cssselector=\".below_fold_toggle_rental\">\n              <i
+        class=\"icon-minus\"></i> Basic Options\n            </div>\n            <div
+        style=\"line-height:44px;\">\n              <div style=\"float:left; margin-right:
+        20px; margin-left: 15px;\">\n                <button type=\"submit\" name=\"do_search\"
+        id=\"performSearch\" class=\"button\">Search</button>\n              </div>\n
+        \             <div class=\"below_fold_toggle below_fold_toggle_rental\" se:behavior=\"togglable
+        coordinated \" se:coordinator=\"criteria_expander\" se:togglable:cssselector=\".below_fold_toggle_rental\">\n
         \               <i class=\"icon-plus\"></i> Advanced Options\n              </div>\n
         \           </div>\n          </div>\n        </div>\n      </div>\n      <button
         type=\"submit\" name=\"do_search\" id=\"performSearch\" class=\"button hidden-sm
         hidden-md\" style=\"margin-top: -5px; margin-bottom: 10px; margin-left: 15px;\">Search</button>\n
         \   </div>\n    <div class=\"save_search_upsell\" style=\"margin-top: 20px;\">\n
         \     <p style=\"text-align:center;\">Get instant updates on new listings:
-        \n        \n<span id='add_folder_entry_Search_273_span' style=\"margin-right:8px;\">\n
-        \ \n    \n      <a href=\"#\" data-modal-class=\"modal-signin\" data-modal-source=\"http://streeteasy.com/nyc/user/register_dialog?item=Search&amp;origin=save&amp;return_to=%2Ffolders%2F-%2Fadd_entry_dialog_2013%3Fentry%255Bitem_criteria%255D%3Darea%253A107%26amp%3Bentry%255Bitem_listing_class%255D%3DSale%26amp%3Bentry%255Bitem_type%255D%3DSearch%26amp%3Blnf_mode%3D2013%26amp%3Bquick_save%3Dtrue%26amp%3Bsaved_in_folders_info%3Dtrue\"
+        \n        \n<span id='add_folder_entry_Search_1285550_span' style=\"margin-right:8px;\">\n
+        \ \n    \n      <a href=\"#\" data-modal-class=\"modal-signin\" data-modal-source=\"http://streeteasy.com/nyc/user/register_dialog?item=Search&amp;origin=save&amp;return_to=%2Ffolders%2F-%2Fadd_entry_dialog_2013%3Fentry%255Bitem_criteria%255D%3Darea%253A107%26amp%3Bentry%255Bitem_listing_class%255D%3DRental%26amp%3Bentry%255Bitem_type%255D%3DSearch%26amp%3Blnf_mode%3D2013%26amp%3Bquick_save%3Dtrue%26amp%3Bsaved_in_folders_info%3Dtrue\"
         data-toggle=\"modal\" rel=\"nofollow\">save this search</a>\n    \n    \n
         \ \n</span>\n\n\n      </p>\n    </div>\n\n    <div class=\"below_fold_toggle
-        below_fold_toggle_sale hidden\" se:behavior=\"loadable andale_coordinatable
-        coordinated\" se:coordinator=\"criteria_expander\" se:url=\"/nyc/process/sales/search_fields?context=sale&amp;criteria=area%3A107&amp;criteria_group=below_fold&amp;location=standard\"></div>\n
+        below_fold_toggle_rental hidden\" se:behavior=\"loadable andale_coordinatable
+        coordinated\" se:coordinator=\"criteria_expander\" se:url=\"/nyc/process/rentals/search_fields?context=rental&amp;criteria=area%3A107&amp;criteria_group=below_fold&amp;location=standard\"></div>\n
         \ </div>\n\n</form>      </div>\n    </div>\n  </div>\n</div>\n\n<section
         class='view_options hidden-xs' id=\"results-list\">\n\n  <div class='criteria_actions'
         id=\"results-list\">\n    <a href='#' class='button button-primary' data-toggle=\"modal\"
         data-target=\"#searchModal\">Refine This Search</a>\n  </div>\n\n  <div class='right_aligned
-        hidden-xs' id=\"saved-search\" style=\"float:left;\">\n    \n<span id='add_folder_entry_Search_273_span'
+        hidden-xs' id=\"saved-search\" style=\"float:left;\">\n    \n<span id='add_folder_entry_Search_1285550_span'
         style=\"margin-right:8px;\">\n  \n    \n      <a href=\"#\" class=\"button
-        button-tool hidden-xs\" data-modal-class=\"modal-signin\" data-modal-source=\"http://streeteasy.com/nyc/user/register_dialog?item=Search&amp;origin=save&amp;return_to=%2Ffolders%2F-%2Fadd_entry_dialog_2013%3Fentry%255Bitem_criteria%255D%3Darea%253A107%26amp%3Bentry%255Bitem_listing_class%255D%3DSale%26amp%3Bentry%255Bitem_type%255D%3DSearch%26amp%3Blnf_mode%3D2013\"
+        button-tool hidden-xs\" data-modal-class=\"modal-signin\" data-modal-source=\"http://streeteasy.com/nyc/user/register_dialog?item=Search&amp;origin=save&amp;return_to=%2Ffolders%2F-%2Fadd_entry_dialog_2013%3Fentry%255Bitem_criteria%255D%3Darea%253A107%26amp%3Bentry%255Bitem_listing_class%255D%3DRental%26amp%3Bentry%255Bitem_type%255D%3DSearch%26amp%3Blnf_mode%3D2013\"
         data-toggle=\"modal\" rel=\"nofollow\"><i class='icon-star'></i> SAVE SEARCH</a>\n
         \   \n    \n  \n</span>\n\n    <a href=\"#\" class=\"button button-tool hidden-xs
-        hidden-sm\" data-modal-class=\"modal-signin\" data-modal-source=\"http://streeteasy.com/nyc/user/register_dialog?origin=excel&amp;return_to=%2Ffor-sale%2Fsoho%3Fview%3Dlist\"
+        hidden-sm\" data-modal-class=\"modal-signin\" data-modal-source=\"http://streeteasy.com/nyc/user/register_dialog?origin=excel&amp;return_to=%2Ffor-rent%2Fsoho%3Fview%3Dlist\"
         data-toggle=\"modal\" rel=\"nofollow\"><i class='icon-file'></i>Export</a>\n
         \ </div>\n\n      <div class='label spaced'>Sort by</div>\n    <select name=\"sort_by\"
         se:behavior=\"form_submitter\" style=\"height: 34px;\">\n      <option value=\"listed_desc\">Newest</option>\n<option
@@ -1440,217 +1421,211 @@ http_interactions:
         \ </div>\n\n  <div class='closer'></div>\n</section>\n\n<section class='results
         row list_view' id=\"results\">\n\n      \n    <table class='nice_table items
         item_table_rows listings table_list_with_pagination' se:behavior=\"load_on_scroll\">\n
-        \     \n        \n          <tr id=\"listing_1106198\" class=\"listing item
+        \     \n        \n          <tr id=\"listing_1268523\" class=\"listing item
         even\" se:behavior='selectable hoverable clickable' >\n  <td>\n    \n    <h5><a
-        href=\"/sale/1106198-condo-246-spring-street-soho-new-york\">246 Spring Street
-        PRESIDENTI</a></h5>\n  </td>\n  <td class='area'>Soho</td>\n  <td class='type'>Condo</td>\n
-        \ <td class='rooms'>4 beds</td>\n  <td class='rooms'>5 baths</td>\n  <td class='size'>10,045
-        ft&sup2;</td>\n  <td class='size'></td>\n  <td class='price'>\n    <h5>\n
-        \     \n        $50,000,000&nbsp;&nbsp;\n      \n    </h5>\n      \n  </td>\n</tr>\n<tr
-        id=\"listing_1094451\" class=\"listing item odd\" se:behavior='selectable
-        hoverable clickable' >\n  <td>\n    \n    <h5><a href=\"/sale/1094451-condo-158-mercer-st-soho-new-york\">158
-        Mercer Street #PHM</a></h5>\n  </td>\n  <td class='area'>Soho</td>\n  <td
-        class='type'>Condo</td>\n  <td class='rooms'>6 beds</td>\n  <td class='rooms'>6+
-        baths</td>\n  <td class='size'>7,452 ft&sup2;</td>\n  <td class='size'></td>\n
-        \ <td class='price'>\n    <h5>\n      \n        $37,500,000&nbsp;&nbsp;\n
-        \     \n    </h5>\n      \n  </td>\n</tr>\n<tr id=\"listing_1076635\" class=\"listing
-        item even\" se:behavior='selectable hoverable clickable' >\n  <td>\n    \n
-        \   <h5><a href=\"/sale/1076635-condo-158-mercer-street-soho-new-york\">158
-        Mercer Street #PHM</a></h5>\n  </td>\n  <td class='area'>Soho</td>\n  <td
-        class='type'>Condo</td>\n  <td class='rooms'>6 beds</td>\n  <td class='rooms'>6+
-        baths</td>\n  <td class='size'>7,452 ft&sup2;</td>\n  <td class='size'></td>\n
-        \ <td class='price'>\n    <h5>\n      \n        $37,500,000&nbsp;&nbsp;\n
-        \     \n    </h5>\n      \n  </td>\n</tr>\n<tr id=\"listing_1085130\" class=\"listing
-        item odd\" se:behavior='selectable hoverable clickable' >\n  <td>\n    \n
-        \   <h5><a href=\"/sale/1085130-condo-27-wooster-street-soho-new-york\">27
-        Wooster Street #PH</a></h5>\n  </td>\n  <td class='area'>Soho</td>\n  <td
-        class='type'>Condo</td>\n  <td class='rooms'>5 beds</td>\n  <td class='rooms'>5
-        baths</td>\n  <td class='size'>6,700 ft&sup2;</td>\n  <td class='size'></td>\n
-        \ <td class='price'>\n    <h5>\n      \n        $28,500,000&nbsp;&nbsp;\n
-        \     \n    </h5>\n      \n  </td>\n</tr>\n<tr id=\"listing_1049930\" class=\"listing
-        item even\" se:behavior='selectable hoverable clickable' >\n  <td>\n    \n
-        \   <h5><a href=\"/sale/1049930-condo-180-ave-of-the-americas-soho-new-york\">180
-        Avenue  of the Americas #PHA</a></h5>\n  </td>\n  <td class='area'>Soho</td>\n
-        \ <td class='type'>Condo</td>\n  <td class='rooms'>4 beds</td>\n  <td class='rooms'>5.5
-        baths</td>\n  <td class='size'>5,286 ft&sup2;</td>\n  <td class='size'></td>\n
-        \ <td class='price'>\n    <h5>\n      \n        $28,000,000&nbsp;&nbsp;\n
-        \     \n    </h5>\n      \n  </td>\n</tr>\n<tr id=\"listing_1095333\" class=\"listing
-        item odd\" se:behavior='selectable hoverable clickable' >\n  <td>\n    \n
-        \   <h5><a href=\"/sale/1095333-condo-10-sullivan-street-soho-new-york\">10
-        Sullivan Street #DUPLEX</a></h5>\n  </td>\n  <td class='area'>Soho</td>\n
-        \ <td class='type'>Condo</td>\n  <td class='rooms'>5 beds</td>\n  <td class='rooms'>5+
-        baths</td>\n  <td class='size'>5,256 ft&sup2;</td>\n  <td class='size'></td>\n
-        \ <td class='price'>\n    <h5>\n      \n        $25,000,000&nbsp;&nbsp;\n
-        \     \n    </h5>\n      \n  </td>\n</tr>\n<tr id=\"listing_1083677\" class=\"listing
-        item even\" se:behavior='selectable hoverable clickable' >\n  <td>\n    \n
-        \   <h5><a href=\"/sale/1083677-coop-420-west-broadway-soho-new-york\">420
-        West Broadway #PHB</a></h5>\n  </td>\n  <td class='area'>Soho</td>\n  <td
-        class='type'>Co-op</td>\n  <td class='rooms'>3 beds</td>\n  <td class='rooms'>3.5
-        baths</td>\n  <td class='size'>3,593 ft&sup2;</td>\n  <td class='size'></td>\n
-        \ <td class='price'>\n    <h5>\n      \n        $19,750,000&nbsp;&nbsp;\n
-        \     \n    </h5>\n      \n  </td>\n</tr>\n<tr id=\"listing_1083469\" class=\"listing
-        item odd\" se:behavior='selectable hoverable clickable' >\n  <td>\n    \n
-        \   <h5><a href=\"/sale/1083469-coop-420-w-broadway-soho-new-york\">420 W
-        Broadway #PHB</a></h5>\n  </td>\n  <td class='area'>Soho</td>\n  <td class='type'>Co-op</td>\n
-        \ <td class='rooms'>3 beds</td>\n  <td class='rooms'>3.5 baths</td>\n  <td
-        class='size'>3,593 ft&sup2;</td>\n  <td class='size'></td>\n  <td class='price'>\n
-        \   <h5>\n      \n        $19,750,000&nbsp;&nbsp;\n      \n    </h5>\n      \n
-        \ </td>\n</tr>\n<tr id=\"listing_1106182\" class=\"listing item even\" se:behavior='selectable
-        hoverable clickable' >\n  <td>\n    \n    <h5><a href=\"/sale/1106182-condo-158-mercer-street-soho-new-york\">158
-        Mercer Street #7B</a></h5>\n  </td>\n  <td class='area'>Soho</td>\n  <td class='type'>Condo</td>\n
-        \ <td class='rooms'>4 beds</td>\n  <td class='rooms'>3 baths</td>\n  <td class='size'>4,700
-        ft&sup2;</td>\n  <td class='size'></td>\n  <td class='price'>\n    <h5>\n
-        \     \n        $16,900,000&nbsp;&nbsp;\n      \n    </h5>\n      \n  </td>\n</tr>\n<tr
-        id=\"listing_1043576\" class=\"listing item odd\" se:behavior='selectable
-        hoverable clickable' >\n  <td>\n    \n    <h5><a href=\"/sale/1043576-condo-180-ave-of-the-americas-soho-new-york\">180
-        Avenue  of the Americas #PHB</a></h5>\n  </td>\n  <td class='area'>Soho</td>\n
-        \ <td class='type'>Condo</td>\n  <td class='rooms'>4 beds</td>\n  <td class='rooms'>4.5
-        baths</td>\n  <td class='size'>3,400 ft&sup2;</td>\n  <td class='size'></td>\n
-        \ <td class='price'>\n    <h5>\n      \n        $15,000,000&nbsp;&nbsp;\n
-        \     \n    </h5>\n      \n  </td>\n</tr>\n<tr id=\"listing_1080992\" class=\"listing
-        item even\" se:behavior='selectable hoverable clickable' >\n  <td>\n    \n
-        \   <h5><a href=\"/sale/1080992-townhouse-81-sullivan-street-soho-new-york\">81
-        Sullivan Street </a></h5>\n  </td>\n  <td class='area'>Soho</td>\n  <td class='type'>Townhouse</td>\n
-        \ <td class='rooms'>9 beds</td>\n  <td class='rooms'>7 baths</td>\n  <td class='size'>8,600
-        ft&sup2;</td>\n  <td class='size'></td>\n  <td class='price'>\n    <h5>\n
-        \     \n        $13,500,000&nbsp;&nbsp;\n      \n    </h5>\n      \n  </td>\n</tr>\n<tr
-        id=\"listing_1082540\" class=\"listing item odd\" se:behavior='selectable
-        hoverable clickable' >\n  <td>\n    \n    <h5><a href=\"/sale/1082540-condo-497-greenwich-street-soho-new-york\">497
-        Greenwich Street #PHA</a></h5>\n  </td>\n  <td class='area'>Soho</td>\n  <td
-        class='type'>Condo</td>\n  <td class='rooms'>4 beds</td>\n  <td class='rooms'>3
-        baths</td>\n  <td class='size'>3,600 ft&sup2;</td>\n  <td class='size'></td>\n
-        \ <td class='price'>\n    <h5>\n      \n        $12,995,000&nbsp;&nbsp;\n
-        \     \n    </h5>\n      \n  </td>\n</tr>\n<tr id=\"listing_913917\" class=\"listing
-        item even\" se:behavior='selectable hoverable clickable' >\n  <td>\n    \n
-        \   <h5><a href=\"/sale/913917-condo-70-greene-street-soho-new-york\">70 Greene
-        Street #PH</a></h5>\n  </td>\n  <td class='area'>Soho</td>\n  <td class='type'>Condo</td>\n
+        href=\"/rental/1268523-townhouse-120-lafayette-street-soho-new-york\">120
+        Lafayette Street TOWNHOUSE</a></h5>\n  </td>\n  <td class='area'>Soho</td>\n
+        \ <td class='type'>Townhouse</td>\n  <td class='rooms'></td>\n  <td class='rooms'></td>\n
+        \ <td class='size'></td>\n  <td class='size'></td>\n  <td class='price'>\n
+        \   <h5>\n      \n        $60,000&nbsp;&nbsp;\n      \n    </h5>\n      \n
+        \ </td>\n</tr>\n<tr id=\"listing_1367810\" class=\"listing item odd\" se:behavior='selectable
+        hoverable clickable' >\n  <td>\n    \n    <h5><a href=\"/rental/1367810-condo-70-greene-street-soho-new-york\">70
+        Greene Street #PH</a></h5>\n  </td>\n  <td class='area'>Soho</td>\n  <td class='type'>Condo</td>\n
         \ <td class='rooms'>4 beds</td>\n  <td class='rooms'>5 baths</td>\n  <td class='size'>4,209
         ft&sup2;</td>\n  <td class='size'></td>\n  <td class='price'>\n    <h5>\n
-        \     \n        $12,350,000&nbsp;<i class=\"icon-long-arrow-down\"></i>\n
-        \     \n    </h5>\n      \n  </td>\n</tr>\n<tr id=\"listing_1084706\" class=\"listing
+        \     \n        $50,000&nbsp;&nbsp;\n      \n    </h5>\n      \n  </td>\n</tr>\n<tr
+        id=\"listing_1313244\" class=\"listing item even\" se:behavior='selectable
+        hoverable clickable' >\n  <td>\n    \n    <h5><a href=\"/rental/1313244-rental-158-mercer-street-soho-new-york\">158
+        Mercer Street #10B</a></h5>\n  </td>\n  <td class='area'>Soho</td>\n  <td
+        class='type'>Rental Unit</td>\n  <td class='rooms'>3 beds</td>\n  <td class='rooms'>3.5
+        baths</td>\n  <td class='size'>4,700 ft&sup2;</td>\n  <td class='size'></td>\n
+        \ <td class='price'>\n    <h5>\n      \n        $43,500&nbsp;<i class=\"icon-long-arrow-down\"></i>\n
+        \     \n    </h5>\n      \n  </td>\n</tr>\n<tr id=\"listing_1340292\" class=\"listing
         item odd\" se:behavior='selectable hoverable clickable' >\n  <td>\n    \n
-        \   <h5><a href=\"/sale/1084706-condo-111-mercer-street-soho-new-york\">111
-        Mercer Street #PH</a></h5>\n  </td>\n  <td class='area'>Soho</td>\n  <td class='type'>Condo</td>\n
+        \   <h5><a href=\"/rental/1340292-condo-350-west-broadway-soho-new-york\">350
+        West Broadway #8</a></h5>\n  </td>\n  <td class='area'>Soho</td>\n  <td class='type'>Condo</td>\n
         \ <td class='rooms'>3 beds</td>\n  <td class='rooms'>3.5 baths</td>\n  <td
-        class='size'>3,539 ft&sup2;</td>\n  <td class='size'></td>\n  <td class='price'>\n
-        \   <h5>\n      \n        $12,000,000&nbsp;&nbsp;\n      \n    </h5>\n      \n
-        \ </td>\n</tr>\n<tr id=\"listing_1056261\" class=\"listing item even\" se:behavior='selectable
-        hoverable clickable' >\n  <td>\n    \n    <h5><a href=\"/sale/1056261-condo-76-crosby-street-soho-new-york\">76
-        Crosby Street #4</a></h5>\n  </td>\n  <td class='area'>Soho</td>\n  <td class='type'>Condo</td>\n
-        \ <td class='rooms'>4 beds</td>\n  <td class='rooms'>3 baths</td>\n  <td class='size'>5,262
-        ft&sup2;</td>\n  <td class='size'></td>\n  <td class='price'>\n    <h5>\n
-        \     \n        $10,995,000&nbsp;<i class=\"icon-long-arrow-down\"></i>\n
-        \     \n    </h5>\n      \n  </td>\n</tr>\n<tr id=\"listing_991196\" class=\"listing
+        class='size'>2,902 ft&sup2;</td>\n  <td class='size'></td>\n  <td class='price'>\n
+        \   <h5>\n      \n        $40,000&nbsp;&nbsp;\n      \n    </h5>\n      \n
+        \ </td>\n</tr>\n<tr id=\"listing_1280413\" class=\"listing item even\" se:behavior='selectable
+        hoverable clickable' >\n  <td>\n    \n    <h5><a href=\"/rental/1280413-condo-73-wooster-street-soho-new-york\">73
+        Wooster Street #3A</a></h5>\n  </td>\n  <td class='area'>Soho</td>\n  <td
+        class='type'>Condo</td>\n  <td class='rooms'>4 beds</td>\n  <td class='rooms'>4.5
+        baths</td>\n  <td class='size'>4,400 ft&sup2;</td>\n  <td class='size'></td>\n
+        \ <td class='price'>\n    <h5>\n      \n        $40,000&nbsp;&nbsp;\n      \n
+        \   </h5>\n      \n  </td>\n</tr>\n<tr id=\"listing_1347351\" class=\"listing
         item odd\" se:behavior='selectable hoverable clickable' >\n  <td>\n    \n
-        \   <h5><a href=\"/sale/991196-coop-565-broadway-soho-new-york\">565 Broadway
-        #2</a></h5>\n  </td>\n  <td class='area'>Soho</td>\n  <td class='type'>Co-op</td>\n
-        \ <td class='rooms'>5 beds</td>\n  <td class='rooms'>5 baths</td>\n  <td class='size'>6,500
+        \   <h5><a href=\"/rental/1347351-townhouse-127-grand-street-soho-new-york\">127
+        Grand Street #GROUND</a></h5>\n  </td>\n  <td class='area'>Soho</td>\n  <td
+        class='type'>Townhouse</td>\n  <td class='rooms'></td>\n  <td class='rooms'></td>\n
+        \ <td class='size'>4,400 ft&sup2;</td>\n  <td class='size'></td>\n  <td class='price'>\n
+        \   <h5>\n      \n        $27,500&nbsp;&nbsp;\n      \n    </h5>\n      \n
+        \ </td>\n</tr>\n<tr id=\"listing_1129163\" class=\"listing item even\" se:behavior='selectable
+        hoverable clickable' >\n  <td>\n    \n    <h5><a href=\"/rental/1129163-condo-311-west-broadway-soho-new-york\">311
+        West Broadway #TH4</a></h5>\n  </td>\n  <td class='area'>Soho</td>\n  <td
+        class='type'>Condo</td>\n  <td class='rooms'>2 beds</td>\n  <td class='rooms'>3
+        baths</td>\n  <td class='size'>3,184 ft&sup2;</td>\n  <td class='size'></td>\n
+        \ <td class='price'>\n    <h5>\n      \n        $27,500&nbsp;<i class=\"icon-long-arrow-up\"></i>\n
+        \     \n    </h5>\n      <span class='accent_text'>Furnished</span>\n  </td>\n</tr>\n<tr
+        id=\"listing_1331336\" class=\"listing item odd\" se:behavior='selectable
+        hoverable clickable' >\n  <td>\n    \n    <h5><a href=\"/rental/1331336-condo-145-sixth-avenue-soho-new-york\">145
+        Sixth Avenue #4A</a></h5>\n  </td>\n  <td class='area'>Soho</td>\n  <td class='type'>Condo</td>\n
+        \ <td class='rooms'>3 beds</td>\n  <td class='rooms'>2 baths</td>\n  <td class='size'>3,100
         ft&sup2;</td>\n  <td class='size'></td>\n  <td class='price'>\n    <h5>\n
-        \     \n        $10,995,000&nbsp;<i class=\"icon-long-arrow-up\"></i>\n      \n
-        \   </h5>\n      \n  </td>\n</tr>\n<tr id=\"listing_1070138\" class=\"listing
-        item even\" se:behavior='selectable hoverable clickable' >\n  <td>\n    \n
-        \   <h5><a href=\"/sale/1070138-508-broadway-soho-new-york\">508 Broadway
-        #LOFTS</a></h5>\n  </td>\n  <td class='area'>Soho</td>\n  <td class='type'>Building</td>\n
-        \ <td class='rooms'>4 beds</td>\n  <td class='rooms'></td>\n  <td class='size'>8,303
-        ft&sup2;</td>\n  <td class='size'></td>\n  <td class='price'>\n    <h5>\n
-        \     \n        $10,500,000&nbsp;<i class=\"icon-long-arrow-down\"></i>\n
-        \     \n    </h5>\n      \n  </td>\n</tr>\n<tr id=\"listing_1079668\" class=\"listing
+        \     \n        $25,000&nbsp;<i class=\"icon-long-arrow-up\"></i>\n      \n
+        \   </h5>\n      <span class='accent_text'>Furnished</span>\n  </td>\n</tr>\n<tr
+        id=\"listing_1344929\" class=\"listing item even\" se:behavior='selectable
+        hoverable clickable' >\n  <td>\n    \n    <h5><a href=\"/rental/1344929-condo-11-mercer-street-soho-new-york\">11
+        Mercer Street #3FL</a></h5>\n  </td>\n  <td class='area'>Soho</td>\n  <td
+        class='type'>Condo</td>\n  <td class='rooms'>3 beds</td>\n  <td class='rooms'>2
+        baths</td>\n  <td class='size'>4,012 ft&sup2;</td>\n  <td class='size'></td>\n
+        \ <td class='price'>\n    <h5>\n      \n        $25,000&nbsp;&nbsp;\n      \n
+        \   </h5>\n      \n  </td>\n</tr>\n<tr id=\"listing_1330814\" class=\"listing
         item odd\" se:behavior='selectable hoverable clickable' >\n  <td>\n    \n
-        \   <h5><a href=\"/sale/1079668-condo-158-mercer-street-soho-new-york\">158
-        Mercer Street #5M</a></h5>\n  </td>\n  <td class='area'>Soho</td>\n  <td class='type'>Condo</td>\n
-        \ <td class='rooms'>3 beds</td>\n  <td class='rooms'>3 baths</td>\n  <td class='size'>4,200
+        \   <h5><a href=\"/rental/1330814-coop-362-west-broadway-soho-new-york\">362
+        West Broadway #2</a></h5>\n  </td>\n  <td class='area'>Soho</td>\n  <td class='type'>Co-op</td>\n
+        \ <td class='rooms'>3 beds</td>\n  <td class='rooms'>2 baths</td>\n  <td class='size'>2,750
         ft&sup2;</td>\n  <td class='size'></td>\n  <td class='price'>\n    <h5>\n
-        \     \n        $10,500,000&nbsp;&nbsp;\n      \n    </h5>\n      \n  </td>\n</tr>\n<tr
-        id=\"listing_1078680\" class=\"listing item even\" se:behavior='selectable
-        hoverable clickable' >\n  <td>\n    \n    <h5><a href=\"/sale/1078680-condo-158-mercer-street-soho-new-york\">158
-        Mercer Street #5M</a></h5>\n  </td>\n  <td class='area'>Soho</td>\n  <td class='type'>Condo</td>\n
-        \ <td class='rooms'>3 beds</td>\n  <td class='rooms'>3 baths</td>\n  <td class='size'>4,200
-        ft&sup2;</td>\n  <td class='size'></td>\n  <td class='price'>\n    <h5>\n
-        \     \n        $10,500,000&nbsp;&nbsp;\n      \n    </h5>\n      \n  </td>\n</tr>\n<tr
-        id=\"listing_1095648\" class=\"listing item odd\" se:behavior='selectable
-        hoverable clickable' >\n  <td>\n    \n    <h5><a href=\"/sale/1095648-condo-115-mercer-street-soho-new-york\">115
-        Mercer Street #PH</a></h5>\n  </td>\n  <td class='area'>Soho</td>\n  <td class='type'>Condo</td>\n
-        \ <td class='rooms'>3 beds</td>\n  <td class='rooms'>3.5 baths</td>\n  <td
-        class='size'>2,741 ft&sup2;</td>\n  <td class='size'></td>\n  <td class='price'>\n
-        \   <h5>\n      \n        $9,950,000&nbsp;<i class=\"icon-long-arrow-down\"></i>\n
-        \     \n    </h5>\n      \n  </td>\n</tr>\n<tr id=\"listing_1095330\" class=\"listing
-        item even\" se:behavior='selectable hoverable clickable' >\n  <td>\n    \n
-        \   <h5><a href=\"/sale/1095330-condo-10-sullivan-street-soho-new-york\">10
-        Sullivan Street #6A</a></h5>\n  </td>\n  <td class='area'>Soho</td>\n  <td
-        class='type'>Condo</td>\n  <td class='rooms'>3 beds</td>\n  <td class='rooms'>3.5
-        baths</td>\n  <td class='size'>2,950 ft&sup2;</td>\n  <td class='size'></td>\n
-        \ <td class='price'>\n    <h5>\n      \n        $9,900,000&nbsp;&nbsp;\n      \n
-        \   </h5>\n      \n  </td>\n</tr>\n<tr id=\"listing_1107386\" class=\"listing
+        \     \n        $24,500&nbsp;&nbsp;\n      \n    </h5>\n      \n  </td>\n</tr>\n<tr
+        id=\"listing_1370518\" class=\"listing item even\" se:behavior='selectable
+        hoverable clickable' >\n  <td>\n    \n    <h5><a href=\"/rental/1370518-coop-143-prince-street-soho-new-york\">143
+        Prince Street #2</a></h5>\n  </td>\n  <td class='area'>Soho</td>\n  <td class='type'>Co-op</td>\n
+        \ <td class='rooms'>2 beds</td>\n  <td class='rooms'>2 baths</td>\n  <td class='size'></td>\n
+        \ <td class='size'></td>\n  <td class='price'>\n    <h5>\n      \n        $24,500&nbsp;&nbsp;\n
+        \     \n    </h5>\n      <span class='accent_text'>Furnished</span>\n  </td>\n</tr>\n<tr
+        id=\"listing_1358493\" class=\"listing item odd\" se:behavior='selectable
+        hoverable clickable' >\n  <td>\n    \n    <h5><a href=\"/rental/1358493-coop-143-prince-street-soho-new-york\">143
+        Prince Street #2</a></h5>\n  </td>\n  <td class='area'>Soho</td>\n  <td class='type'>Co-op</td>\n
+        \ <td class='rooms'>2 beds</td>\n  <td class='rooms'>2 baths</td>\n  <td class='size'></td>\n
+        \ <td class='size'></td>\n  <td class='price'>\n    <h5>\n      \n        $24,500&nbsp;&nbsp;\n
+        \     \n    </h5>\n      <span class='accent_text'>Furnished</span>\n  </td>\n</tr>\n<tr
+        id=\"listing_1324616\" class=\"listing item even\" se:behavior='selectable
+        hoverable clickable' >\n  <td>\n    \n    <h5><a href=\"/rental/1324616-condo-56-crosby-street-soho-new-york\">56
+        Crosby Street #3A1</a></h5>\n  </td>\n  <td class='area'>Soho</td>\n  <td
+        class='type'>Condo</td>\n  <td class='rooms'>2 beds</td>\n  <td class='rooms'>2.5
+        baths</td>\n  <td class='size'>3,800 ft&sup2;</td>\n  <td class='size'></td>\n
+        \ <td class='price'>\n    <h5>\n      \n        $24,000&nbsp;&nbsp;\n      \n
+        \   </h5>\n      \n  </td>\n</tr>\n<tr id=\"listing_1321885\" class=\"listing
         item odd\" se:behavior='selectable hoverable clickable' >\n  <td>\n    \n
-        \   <h5><a href=\"/sale/1107386-condo-10-sullivan-street-soho-new-york\">10
-        Sullivan Street #7A</a></h5>\n  </td>\n  <td class='area'>Soho</td>\n  <td
-        class='type'>Condo</td>\n  <td class='rooms'>3 beds</td>\n  <td class='rooms'>3.5
-        baths</td>\n  <td class='size'>2,950 ft&sup2;</td>\n  <td class='size'></td>\n
-        \ <td class='price'>\n    <h5>\n      \n        $8,700,000&nbsp;&nbsp;\n      \n
-        \   </h5>\n      \n  </td>\n</tr>\n<tr id=\"listing_1073610\" class=\"listing
+        \   <h5><a href=\"/rental/1321885-condo-48-mercer-street-soho-new-york\">48
+        Mercer Street #6W</a></h5>\n  </td>\n  <td class='area'>Soho</td>\n  <td class='type'>Condo</td>\n
+        \ <td class='rooms'>3 beds</td>\n  <td class='rooms'>3 baths</td>\n  <td class='size'>2,500
+        ft&sup2;</td>\n  <td class='size'></td>\n  <td class='price'>\n    <h5>\n
+        \     \n        $22,000&nbsp;&nbsp;\n      \n    </h5>\n      <span class='accent_text'>Furnished</span>\n
+        \ </td>\n</tr>\n<tr id=\"listing_1324617\" class=\"listing item even\" se:behavior='selectable
+        hoverable clickable' >\n  <td>\n    \n    <h5><a href=\"/rental/1324617-condo-56-crosby-street-soho-new-york\">56
+        Crosby Street #3A</a></h5>\n  </td>\n  <td class='area'>Soho</td>\n  <td class='type'>Condo</td>\n
+        \ <td class='rooms'>2 beds</td>\n  <td class='rooms'>2.5 baths</td>\n  <td
+        class='size'>3,800 ft&sup2;</td>\n  <td class='size'></td>\n  <td class='price'>\n
+        \   <h5>\n      \n        $21,000&nbsp;&nbsp;\n      \n    </h5>\n      <span
+        class='accent_text'>Furnished</span>\n  </td>\n</tr>\n<tr id=\"listing_1301506\"
+        class=\"listing item odd\" se:behavior='selectable hoverable clickable' >\n
+        \ <td>\n    \n    <h5><a href=\"/rental/1301506-multi-511-canal-street-soho-new-york\">511
+        Canal Street </a></h5>\n  </td>\n  <td class='area'>Soho</td>\n  <td class='type'>Multi-family</td>\n
+        \ <td class='rooms'></td>\n  <td class='rooms'>1 bath</td>\n  <td class='size'></td>\n
+        \ <td class='size'></td>\n  <td class='price'>\n    <h5>\n      \n        $20,000&nbsp;&nbsp;\n
+        \     \n    </h5>\n      \n  </td>\n</tr>\n<tr id=\"listing_795159\" class=\"listing
         item even\" se:behavior='selectable hoverable clickable' >\n  <td>\n    \n
-        \   <h5><a href=\"/sale/1073610-condo-30-crosby-street-soho-new-york\">30
-        Crosby Street #4B</a></h5>\n  </td>\n  <td class='area'>Soho</td>\n  <td class='type'>Condo</td>\n
-        \ <td class='rooms'>3 beds</td>\n  <td class='rooms'>3 baths</td>\n  <td class='size'>4,123
+        \   <h5><a href=\"/rental/795159-condop-43-wooster-street-soho-new-york\">43
+        Wooster Street #5W</a></h5>\n  </td>\n  <td class='area'>Soho</td>\n  <td
+        class='type'>Condop</td>\n  <td class='rooms'>2 beds</td>\n  <td class='rooms'>2
+        baths</td>\n  <td class='size'>1,995 ft&sup2;</td>\n  <td class='size'></td>\n
+        \ <td class='price'>\n    <h5>\n      \n        $20,000&nbsp;<i class=\"icon-long-arrow-up\"></i>\n
+        \     \n    </h5>\n      \n  </td>\n</tr>\n<tr id=\"listing_1339638\" class=\"listing
+        item odd\" se:behavior='selectable hoverable clickable' >\n  <td>\n    \n
+        \   <h5><a href=\"/rental/1339638-condo-460-462-west-broadway-soho-new-york\">460-462
+        West Broadway #DUPLEX</a></h5>\n  </td>\n  <td class='area'>Soho</td>\n  <td
+        class='type'>Condo</td>\n  <td class='rooms'>4 beds</td>\n  <td class='rooms'>4.5
+        baths</td>\n  <td class='size'>3,650 ft&sup2;</td>\n  <td class='size'></td>\n
+        \ <td class='price'>\n    <h5>\n      \n        $20,000&nbsp;&nbsp;\n      \n
+        \   </h5>\n      \n  </td>\n</tr>\n<tr id=\"listing_1304384\" class=\"listing
+        item even\" se:behavior='selectable hoverable clickable' >\n  <td>\n    \n
+        \   <h5><a href=\"/rental/1304384-rental-48-mercer-street-soho-new-york\">48
+        Mercer Street #7W</a></h5>\n  </td>\n  <td class='area'>Soho</td>\n  <td class='type'>Rental
+        Unit</td>\n  <td class='rooms'>3 beds</td>\n  <td class='rooms'>3 baths</td>\n
+        \ <td class='size'>2,495 ft&sup2;</td>\n  <td class='size'></td>\n  <td class='price'>\n
+        \   <h5>\n      \n        $19,000&nbsp;<i class=\"icon-long-arrow-down\"></i>\n
+        \     \n    </h5>\n      <span class='accent_text'>Furnished</span>\n  </td>\n</tr>\n<tr
+        id=\"listing_1321888\" class=\"listing item odd\" se:behavior='selectable
+        hoverable clickable' >\n  <td>\n    \n    <h5><a href=\"/rental/1321888-condop-38-crosby-street-soho-new-york\">38
+        Crosby Street #8R</a></h5>\n  </td>\n  <td class='area'>Soho</td>\n  <td class='type'>Condop</td>\n
+        \ <td class='rooms'>3 beds</td>\n  <td class='rooms'>2.5 baths</td>\n  <td
+        class='size'>2,500 ft&sup2;</td>\n  <td class='size'></td>\n  <td class='price'>\n
+        \   <h5>\n      \n        $18,500&nbsp;<i class=\"icon-long-arrow-down\"></i>\n
+        \     \n    </h5>\n      \n  </td>\n</tr>\n<tr id=\"listing_1324078\" class=\"listing
+        item even\" se:behavior='selectable hoverable clickable' >\n  <td>\n    \n
+        \   <h5><a href=\"/rental/1324078-condo-46-mercer-street-soho-new-york\">46
+        Mercer Street #6W</a></h5>\n  </td>\n  <td class='area'>Soho</td>\n  <td class='type'>Condo</td>\n
+        \ <td class='rooms'>2.5 beds</td>\n  <td class='rooms'>3 baths</td>\n  <td
+        class='size'></td>\n  <td class='size'></td>\n  <td class='price'>\n    <h5>\n
+        \     \n        $18,000&nbsp;<i class=\"icon-long-arrow-down\"></i>\n      \n
+        \   </h5>\n      \n  </td>\n</tr>\n<tr id=\"listing_1312904\" class=\"listing
+        item odd\" se:behavior='selectable hoverable clickable' >\n  <td>\n    \n
+        \   <h5><a href=\"/rental/1312904-coop-135-greene-street-soho-new-york\">135
+        Greene Street #2S</a></h5>\n  </td>\n  <td class='area'>Soho</td>\n  <td class='type'>Co-op</td>\n
+        \ <td class='rooms'>2 beds</td>\n  <td class='rooms'>2 baths</td>\n  <td class='size'>3,000
         ft&sup2;</td>\n  <td class='size'></td>\n  <td class='price'>\n    <h5>\n
-        \     \n        $8,500,000&nbsp;&nbsp;\n      \n    </h5>\n      \n  </td>\n</tr>\n<tr
-        id=\"listing_1088988\" class=\"listing item odd\" se:behavior='selectable
-        hoverable clickable' >\n  <td>\n    \n    <h5><a href=\"/sale/1088988-coop-383-w-broadway-soho-new-york\">383
-        W Broadway #5</a></h5>\n  </td>\n  <td class='area'>Soho</td>\n  <td class='type'>Co-op</td>\n
-        \ <td class='rooms'>4 beds</td>\n  <td class='rooms'>3 baths</td>\n  <td class='size'>5,500
+        \     \n        $18,000&nbsp;<i class=\"icon-long-arrow-down\"></i>\n      \n
+        \   </h5>\n      <span class='accent_text'>Furnished</span>\n  </td>\n</tr>\n<tr
+        id=\"listing_1270247\" class=\"listing item even\" se:behavior='selectable
+        hoverable clickable' >\n  <td>\n    \n    <h5><a href=\"/rental/1270247-rental-145-sixth-avenue-soho-new-york\">145
+        Sixth Avenue #6B</a></h5>\n  </td>\n  <td class='area'>Soho</td>\n  <td class='type'>Rental
+        Unit</td>\n  <td class='rooms'>2 beds</td>\n  <td class='rooms'>3 baths</td>\n
+        \ <td class='size'></td>\n  <td class='size'></td>\n  <td class='price'>\n
+        \   <h5>\n      \n        $18,000&nbsp;&nbsp;\n      \n    </h5>\n      <span
+        class='accent_text'>Furnished</span>\n  </td>\n</tr>\n<tr id=\"listing_1304323\"
+        class=\"listing item odd\" se:behavior='selectable hoverable clickable' >\n
+        \ <td>\n    \n    <h5><a href=\"/rental/1304323-condo-139-spring-street-soho-new-york\">139
+        Spring Street #3B</a></h5>\n  </td>\n  <td class='area'>Soho</td>\n  <td class='type'>Condo</td>\n
+        \ <td class='rooms'>2 beds</td>\n  <td class='rooms'>2 baths</td>\n  <td class='size'>2,520
         ft&sup2;</td>\n  <td class='size'></td>\n  <td class='price'>\n    <h5>\n
-        \     \n        $7,500,000&nbsp;&nbsp;\n      \n    </h5>\n      \n  </td>\n</tr>\n\n
-        \                 </table>\n\n    \n  \n    <div class=\"pagination center_aligned
-        bottom_pagination\">\n      <span class=\"page_numbers\">\n        <span class=\"disabled
-        prev_page\"><i class='icon-caret-left'></i></span><span class='separator'>
-        </span><span class=\"current\">1</span><span class='separator'> </span><a
-        href=\"/for-sale/soho?page=2&amp;view=list\" rel=\"next\">2</a><span class='separator'>
-        </span><a href=\"/for-sale/soho?page=3&amp;view=list\">3</a><span class='separator'>
-        </span><a href=\"/for-sale/soho?page=4&amp;view=list\">4</a><span class='separator'>
-        </span><a href=\"/for-sale/soho?page=5&amp;view=list\">5</a><span class='separator'>
-        </span><a href=\"/for-sale/soho?page=6&amp;view=list\">6</a><span class='separator'>
-        </span><a href=\"/for-sale/soho?page=7&amp;view=list\">7</a><span class='separator'>
-        </span><a href=\"/for-sale/soho?page=2&amp;view=list\" class=\"next_page\"
+        \     \n        $17,500&nbsp;<i class=\"icon-long-arrow-down\"></i>\n      \n
+        \   </h5>\n      \n  </td>\n</tr>\n\n                  </table>\n\n    \n
+        \ \n    <div class=\"pagination center_aligned bottom_pagination\">\n      <span
+        class=\"page_numbers\">\n        <span class=\"disabled prev_page\"><i class='icon-caret-left'></i></span><span
+        class='separator'> </span><span class=\"current\">1</span><span class='separator'>
+        </span><a href=\"/for-rent/soho?page=2&amp;view=list\" rel=\"next\">2</a><span
+        class='separator'> </span><a href=\"/for-rent/soho?page=3&amp;view=list\">3</a><span
+        class='separator'> </span><a href=\"/for-rent/soho?page=4&amp;view=list\">4</a><span
+        class='separator'> </span><a href=\"/for-rent/soho?page=5&amp;view=list\">5</a><span
+        class='separator'> </span><span class=\"gap\">&hellip;</span><span class='separator'>
+        </span><a href=\"/for-rent/soho?page=8&amp;view=list\">8</a><span class='separator'>
+        </span><a href=\"/for-rent/soho?page=2&amp;view=list\" class=\"next_page\"
         rel=\"next\"><i class='icon-caret-right'></i></a>\n      </span>\n    </div>\n\n
         \ \n</section>\n\n\n  <section id=\"bottom-of-results-page-thing\" class=\"hidden-sm
         hidden-xs\" style=\"margin-top:60px;\">\n    <div class=\"big_separator\">\n
         \       <div class=\"left_half\">\n    <h2>MORE IN Soho</h2>\n    \n      <div
-        class=\"quarter last\">\n        <ul>\n          \n            \n          \n
-        \           \n              <li><a href=\"/condos/soho\">Soho Condos for Sale</a></li>\n
-        \           \n          \n            \n              <li><a href=\"/coops/soho\">Soho
-        Coops for Sale</a></li>\n            \n          \n            \n              <li><a
-        href=\"/houses/soho\">Soho Houses for Sale</a></li>\n            \n          \n
-        \           \n              <li><a href=\"/townhouses/soho\">Soho Townhouses
-        for Sale</a></li>\n            \n          \n            \n          \n            \n
-        \         \n            \n          \n            \n          \n            \n
-        \         \n            \n          \n            \n          \n            \n
-        \         \n            \n          \n            \n          \n        </ul>\n
+        class=\"quarter last\">\n        <ul>\n          \n            \n              <li><a
+        href=\"/for-rent/soho\">Soho  for Rent</a></li>\n            \n          \n
+        \         \n            \n          \n          \n            \n          \n
+        \         \n            \n          \n          \n            \n              <li><a
+        href=\"/condos-for-rent/soho\">Soho Condos  for Rent</a></li>\n            \n
+        \         \n          \n            \n              <li><a href=\"/coops-for-rent/soho\">Soho
+        Coops  for Rent</a></li>\n            \n          \n          \n            \n
+        \         \n          \n            \n          \n          \n        </ul>\n
         \     </div>\n      <div class=\"quarter last\">\n        <ul>\n          \n
-        \           \n          \n            \n          \n            \n          \n
-        \           \n          \n            \n          \n            \n          \n
-        \           \n              <li><a href=\"/multi-family/soho\">Soho Multi
-        Family for Sale</a></li>\n            \n          \n            \n          \n
-        \           \n          \n            \n          \n            \n          \n
-        \           \n          \n            \n              <li><a href=\"/pet-friendly/soho\">Soho
-        Pet Friendly for Sale</a></li>\n            \n          \n            \n          \n
-        \           \n          \n          <li><a href=\"new-developments/Soho\">New
-        Developments in Soho</a></li>\n        </ul>\n      </div>\n    \n  </div>\n\n
-        \ \n    <div class=\"right_half\">\n      <h2>NEARBY NEIGHBORHOODS</h2>\n
-        \     <ul>\n        \n          <div class=\"quarter last\">                \n
-        \           <li><a href=\"/for-sale/tribeca\">Tribeca  for Sale</a></li>\n
-        \         </div>\n        \n          <div class=\"quarter last\">                \n
-        \           <li><a href=\"/for-sale/greenwich-village\">Greenwich Village
-        \ for Sale</a></li>\n          </div>\n        \n          <div class=\"quarter
-        last\">                \n            <li><a href=\"/for-sale/west-village\">West
-        Village  for Sale</a></li>\n          </div>\n        \n          <div class=\"quarter
-        last\">                \n            <li><a href=\"/for-sale/nolita\">Nolita
-        \ for Sale</a></li>\n          </div>\n        \n          <div class=\"quarter
-        last\">                \n            <li><a href=\"/for-sale/little-italy\">Little
-        Italy  for Sale</a></li>\n          </div>\n        \n          <div class=\"quarter
-        last\">                \n            <li><a href=\"/for-sale/chinatown\">Chinatown
-        \ for Sale</a></li>\n          </div>\n        \n          <div class=\"quarter
-        last\">                \n            <li><a href=\"/for-sale/downtown\">All
-        Downtown  for Sale</a></li>\n          </div>\n        \n    </div>\n  \n\n
+        \           \n          \n            \n              <li><a href=\"/pet-friendly-rentals/soho\">Soho
+        Pet Friendly Rentals</a></li>\n            \n          \n            \n              <li><a
+        href=\"/no-fee-rentals/soho\">Soho No Fee Rentals</a></li>\n            \n
+        \         \n            \n          \n            \n          \n            \n
+        \         \n            \n              <li><a href=\"/houses-for-rent/soho\">Soho
+        Houses  for Rent</a></li>\n            \n          \n            \n          \n
+        \       </ul>\n      </div>\n    \n  </div>\n\n  \n    <div class=\"right_half\">\n
+        \     <h2>NEARBY NEIGHBORHOODS</h2>\n      <ul>\n        \n          <div
+        class=\"quarter last\">                \n            <li><a href=\"/for-rent/tribeca\">Tribeca
+        \ for Rent</a></li>\n          </div>\n        \n          <div class=\"quarter
+        last\">                \n            <li><a href=\"/for-rent/greenwich-village\">Greenwich
+        Village  for Rent</a></li>\n          </div>\n        \n          <div class=\"quarter
+        last\">                \n            <li><a href=\"/for-rent/west-village\">West
+        Village  for Rent</a></li>\n          </div>\n        \n          <div class=\"quarter
+        last\">                \n            <li><a href=\"/for-rent/nolita\">Nolita
+        \ for Rent</a></li>\n          </div>\n        \n          <div class=\"quarter
+        last\">                \n            <li><a href=\"/for-rent/little-italy\">Little
+        Italy  for Rent</a></li>\n          </div>\n        \n          <div class=\"quarter
+        last\">                \n            <li><a href=\"/for-rent/chinatown\">Chinatown
+        \ for Rent</a></li>\n          </div>\n        \n          <div class=\"quarter
+        last\">                \n            <li><a href=\"/for-rent/downtown\">All
+        Downtown  for Rent</a></li>\n          </div>\n        \n    </div>\n  \n\n
         \   </div>\n  </section>\n\n\n\n<script type=\"text/javascript\">\n  $j(document).ready(function()
         {\n    url = window.location.href;\n    leftTwo = $j('.left_two_thirds.items.item_rows.listings');\n
         \   rightThird = $j('.right-third.one-third');\n    height = leftTwo.height();\n
@@ -1703,15 +1678,15 @@ http_interactions:
         href=\"http://streeteasy.com/mobile\"><img src='/assets/images2014/mobile-upsell/footermobile.png'
         alt='' /> iPhone app</a></li>\n    <li><a href=\"//www.zillow.com/corp/Terms.htm\">Terms
         of Use & Privacy Policy</a></li>\n  </ul>\n  <p>\n    Zillow Inc. Sites &copy;
-        2006-2014 Zillow\n  </p>\n</div>\n\n<div class=\"rwd-display-options\">\n
+        2006-2014 Zillow\n  </p>\n</div>\n\n<!-- <div class=\"rwd-display-options\">\n
         \ <span id=\"view-full\" class=\"rwd-display-option\">View Full Site</span>\n
-        \ <span id=\"view-responsive\" class=\"rwd-display-option\">View Mobile Optimized</span>\n</div>\n\n
-        \           <!-- nyc deploy 93665a3 app-5d2  -->\n          </footer>\n        </div>\n
-        \     </div>\n    </div>\n    \n    \n    \n  <script type=\"text/javascript\">if
+        \ <span id=\"view-responsive\" class=\"rwd-display-option\">View Mobile Optimized</span>\n</div>
+        -->\n\n            <!-- nyc master 93665a3 app-45c  -->\n          </footer>\n
+        \       </div>\n      </div>\n    </div>\n    \n    \n    \n  <script type=\"text/javascript\">if
         (!NREUMQ.f) { NREUMQ.f=function() {\nNREUMQ.push([\"load\",new Date().getTime()]);\nvar
         e=document.createElement(\"script\");\ne.type=\"text/javascript\";\ne.src=((\"http:\"===document.location.protocol)?\"http:\":\"https:\")
-        + \"//\" +\n  \"js-agent.newrelic.com/nr-100.js\";\ndocument.body.appendChild(e);\nif(NREUMQ.a)NREUMQ.a();\n};\nNREUMQ.a=window.onload;window.onload=NREUMQ.f;\n};\nNREUMQ.push([\"nrfj\",\"beacon-1.newrelic.com\",\"e7a120bfc3\",\"194324\",\"dAwNREANVFtWQhYSWFsGEB9BB1lFUFg=\",0,276,new
+        + \"//\" +\n  \"js-agent.newrelic.com/nr-100.js\";\ndocument.body.appendChild(e);\nif(NREUMQ.a)NREUMQ.a();\n};\nNREUMQ.a=window.onload;window.onload=NREUMQ.f;\n};\nNREUMQ.push([\"nrfj\",\"beacon-1.newrelic.com\",\"e7a120bfc3\",\"194324\",\"dAwNREANVFtWQhYTXFkXAlxBTVtFXENKDVBEFwpeVT1LUlJCWglcRDwAX18SV1lWXk0=\",0,92,new
         Date().getTime(),\"\",\"\",\"\",\"\",\"\"]);</script></body>\n</html>\n\n"
     http_version: 
-  recorded_at: Wed, 27 Aug 2014 21:47:32 GMT
+  recorded_at: Wed, 27 Aug 2014 23:35:15 GMT
 recorded_with: VCR 2.9.2
