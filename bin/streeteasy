@@ -21,10 +21,4 @@ OptionParser.new do |opts|
   end
 end.parse!
 
-p options
-p ARGV
-
-# se = StreetEasy.new(options)
-# listings = se.most_expensive_listings(options)
-# se.export_listings_to_file(listings, file)
-
+se = StreetEasy.new(options).export_most_expensive_listings_to_file

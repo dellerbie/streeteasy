@@ -50,4 +50,8 @@ class StreetEasy
       f.puts JSON.pretty_generate(listings)
     end
   end
+  
+  def export_most_expensive_listings_to_file
+    export_listings_to_file(most_expensive_listings)
+  end
 end
