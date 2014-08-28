@@ -10,13 +10,13 @@ gem install --dev ./streeteasy-0.0.1.gem
 
 **NOTE: In order to execute the binary script, you will have to refresh your shell after installing the gem.**
 
-Run Tests
+Run the Tests
 ==========
 ```ruby
 rake
 ```
 
-Run Script
+Run the Script
 ==========
 ```ruby
 streeteasy -h
