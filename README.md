@@ -3,6 +3,8 @@ streeteasy
 
 Installation
 ==========
+This gem was tested with ruby 2.0.0p247
+
 ```ruby
 gem build streeteasy.gemspec
 gem install --dev ./streeteasy-0.0.1.gem
